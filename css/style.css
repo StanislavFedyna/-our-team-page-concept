@@ -212,27 +212,27 @@ a:hover {
 }
 
 .card4.cardd:hover::before{
-  background: url(../img/team1.jpg);
+  background: url(../img/team8.jpg);
 
 }
 
 .card5.cardd:hover::before{
-  background: url(../img/team2.jpg);
+  background: url(../img/team4.jpg);
   
 }
 
 .card6.cardd:hover::before{
-  background: url(../img/team3.jpg);
+  background: url(../img/team6.jpg);
   
 }
 
 .card7.cardd:hover::before{
-  background: url(../img/team2.jpg);
+  background: url(../img/team5.jpg);
   
 }
 
 .card8.cardd:hover::before{
-  background: url(../img/team3.jpg);
+  background: url(../img/team7.jpg);
   
 }
 @keyframes anim{
