@@ -249,3 +249,24 @@ a:hover {
     left: 100px;
   }
 }
+
+@media only screen and (max-width: 900px){
+  a{
+    display: none;
+  }
+  .cardd{
+    height: 100px;
+  }
+  .row h5{
+    margin: 28px 0 2px 4px;
+  }
+  .row p{
+    margin-bottom: 10px !important;
+  }
+  .row h5::before{
+    top: 26px;
+  }
+  .cardd:hover::before{
+    display:none;
+  }
+}
