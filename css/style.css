@@ -110,11 +110,88 @@ body:after {
   }
 }
 
-/* .content{
+.content {
   z-index: 1;
   position: relative;
 }
 
-h1{
-  color: 
-} */
+h1 {
+  color: #e3e3e3 !important;
+  font-size: 'Playfair Display;' !important;
+  margin: 32px 0 32px 40px !important;
+}
+
+.row {
+  z-index: 1;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cardd {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 220px;
+  transition: 1s !important;
+  -webkit-transition: 1s !important;
+  -moz-transition: 1s !important;
+  -ms-transition: 1s !important;
+  -o-transition: 1s !important;
+}
+
+.row h5 {
+  color: #fff;
+  font-family: 'Poppins';
+  margin: 48px 0 2px 4px;
+  font-size: 16px;
+
+}
+
+.row h5:before {
+  position: absolute;
+  content: '';
+  top: 50px;
+  left: -2px;
+  width: 2px;
+  height: 22px;
+  display: block;
+  background: #fff;
+
+}
+
+p {
+  color: gray;
+  margin-left: 4px;
+  font-size: 14px;
+  margin-bottom: 70px !important;
+}
+
+a {
+  margin-left: 0px;
+  color: lightgray !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: gray !important;
+}
+
+.cardd:hover:before{
+  content:'';
+  position: absolute;
+  top: -100px;
+  left: 100%;
+  width: 280px;
+  height: 280px;
+  z-index: -1;
+  animation: anim 3.2s ease-in-out;
+  transition: 1s !important;
+  -webkit-transition: 1s !important;
+  -moz-transition: 1s !important;
+  -ms-transition: 1s !important;
+  -o-transition: 1s !important;
+  -webkit-animation: anim 3.2s ease-in-out;
+}
