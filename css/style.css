@@ -183,7 +183,7 @@ a:hover {
   content:'';
   position: absolute;
   top: -100px;
-  left: 100%;
+  left: 100px;
   width: 280px;
   height: 280px;
   z-index: -1;
@@ -194,4 +194,58 @@ a:hover {
   -ms-transition: 1s !important;
   -o-transition: 1s !important;
   -webkit-animation: anim 3.2s ease-in-out;
+}
+
+.card1.cardd:hover::before{
+  background: url(../img/team1.jpg);
+
+}
+
+.card2.cardd:hover::before{
+  background: url(../img/team2.jpg);
+  
+}
+
+.card3.cardd:hover::before{
+  background: url(../img/team3.jpg);
+  
+}
+
+.card4.cardd:hover::before{
+  background: url(../img/team1.jpg);
+
+}
+
+.card5.cardd:hover::before{
+  background: url(../img/team2.jpg);
+  
+}
+
+.card6.cardd:hover::before{
+  background: url(../img/team3.jpg);
+  
+}
+
+.card7.cardd:hover::before{
+  background: url(../img/team2.jpg);
+  
+}
+
+.card8.cardd:hover::before{
+  background: url(../img/team3.jpg);
+  
+}
+@keyframes anim{
+  0%{
+    opacity: 0;
+    left: 70px;
+  }
+  20%{
+    opacity: 1;
+    left: 100px;
+  }
+  100%{
+    opacity: 1;
+    left: 100px;
+  }
 }
